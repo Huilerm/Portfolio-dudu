@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Logo {
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.Letra {
+    color: rgb(75, 70, 70);
+}
+
+.Navegador {
+    width: 100%;
+    margin-right: 40px;
+}
+
+.Navegador ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Navegador ul li {
+    margin-left: 40px;
+}
+
+.Navegador ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.Navegador ul li a:hover {
+    border-bottom: 2px solid grey;
+}
+
+.Logo1 h1 {
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid grey;
+}
+
+.Logo2 h1 {
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid grey;
+}
+
+.Fundo-logo {
+    background-color: black;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 95px;
+    padding-left: 21.78%;
+}
+
+.Fundo-logo .Logo2 h1 {
+    margin-left: 150px;
+}
+
+section {
+    background-color: black;
+    width: 100%;
+    height: 55vh;
+    padding-left: 30px;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+.Part1 {
+    border: 2px solid rgb(75, 70, 70);
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(75, 70, 70);
+    line-height: 1.3rem;
+}
+
+.Part1 h1 {
+    padding-bottom: 5px;
+    color: white;
+    border-right: 2px solid black;
+    background-color: rgb(75, 70, 70);
+}
+
+.Part1 p {
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(75, 70, 70);
+}
+
+.Part2 {
+    border: 2px solid rgb(105, 100, 100);
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(105, 100, 100);
+    line-height: 1.3rem;
+}
+
+.Part2 h1 {
+    padding-bottom: 5px;
+    color: white;
+    border-right: 2px solid black;
+    background-color: rgb(105, 100, 100);
+}
+
+.Part2 p {
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(105, 100, 100);
+}
+
+.Part3 {
+    border: 2px solid rgb(75, 70, 70);
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(75, 70, 70);
+    line-height: 1.3rem;
+}
+
+.Part3 h1 {
+    padding-bottom: 5px;
+    color: white;
+    border-right: 2px solid black;
+    background-color: rgb(75, 70, 70);
+}
+
+.Part3 p {
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(75, 70, 70);
+}
+
+.Container1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 18.5%;
+}
+
+.Container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 6.7%;
+}
+
+.Container2 .Pixel {
+    width: 100px;
+}
+
+.Pixel img {
+    width: 60%;
+    margin-left: 105px;
+    margin-top: 20px;
+}

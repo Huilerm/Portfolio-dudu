@@ -1,0 +1,186 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(236, 227, 227);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 105px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(129, 123, 123);
+    margin-left: 55px;
+    margin-right: 160px;
+    padding-left: 22px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+form h1 {
+    text-align: center;
+}
+
+.dentro {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+input[type=text] {
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-style: solid;
+}
+
+input[type=text]:invalid {
+    border-color: red;
+    background-color: #FEDCDB;
+    outline: none;
+    border-style: solid;
+}
+
+input[type=email] {
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-style: solid;
+}
+
+input[type=email]:invalid {
+    border-color: red;
+    background-color: #FEDCDB;
+    outline: none;
+    border-style: solid;
+}
+
+input[type=password] {
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-style: solid;
+}
+
+input[type=password]:invalid {
+    border-color: red;
+    background-color: #FEDCDB;
+    outline: none;
+    border-style: solid;
+}
+
+input[type=date] {
+    margin-top: 5px;
+    width: 889px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 2rem;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+input[type=date]:invalid {
+    border-color: red;
+    background-color: #FEDCDB;
+    padding-right: 10px;
+    width: 889px;
+    border-radius: 4px;
+    border-style: solid;
+    height: 2rem;
+    padding-left: 10px;
+}
+
+input[type=tel] {
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-style: solid;
+}
+
+input[type=tel]:invalid {
+    border-color: red;
+    background-color: #FEDCDB;
+    outline: none;
+    border-style: solid;
+}
+
+input[type=tel] {
+    height: 2rem;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 5px;
+    border-style: solid;
+}
+
+input[type=tel]:invalid {
+    border-color: red;
+    background-color: #FEDCDB;
+    outline: none;
+    border-style: solid;
+}
+
+.cima {
+    margin-top: 15px;
+}
+
+.baixo {
+    margin-bottom: 15px;
+}
+
+.meio {
+    margin-top: 10px;
+}
+
+input[type=checkbox] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type=file] {
+    border: 2px solid #cccccc;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 11px;
+    border-radius: 4px;
+    width: 97.6%;
+    box-sizing: border-box;
+    height: 3rem;
+}
+
+input[type=submit] {
+    background-color: green;
+    border-radius: 6px;
+    border-color: green;
+    height: 2.8rem;
+    width: 90px;
+    color: white;
+    border-style: solid;
+    margin-right: 10px;
+}
+
+input[type=reset] {
+    background-color: green;
+    border-radius: 6px;
+    border-color: green;
+    height: 2.8rem;
+    width: 90px;
+    color: white;
+    border-style: solid;
+}
+
+select {
+    border: 2px solid #cccccc;
+    padding-right: 809px;
+    border-radius: 4px;
+    background-color: #EBEBEB;
+    margin-top: 5px;
+    height: 2.5rem;
+    padding-left: 10px;
+}

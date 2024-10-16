@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Logo {
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.Letra {
+    color: rgb(75, 70, 70);
+}
+
+.Navegador {
+    width: 100%;
+    margin-right: 40px;
+}
+
+.Navegador ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Navegador ul li {
+    margin-left: 40px;
+}
+
+.Navegador ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.Navegador ul li a:hover {
+    border-bottom: 2px solid grey;
+}
+
+.Logo1 h1 {
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid grey;
+}
+
+.Fundo-logo {
+    background-color: black;
+    display: flex;
+    padding-left: 350px;
+    padding-top: 70px;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    background-color: black;
+    width: 100%;
+    height: 65vh;
+    color: grey;
+    display: flex;
+    padding-left: 35px;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.Contact {
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.Logo2 {
+    color: white;
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+.Display-mini {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Display-mini p {
+    margin-top: 7px;
+}
+
+.Display-mini1 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.Display-mini1 p {
+    margin-top: 1px;
+    padding-left: 6px;
+}
+
+.Display-mini2 {
+    display: flex;
+    margin-top: 9px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.Display-mini2 p {
+    padding-left: 5px;
+    line-height: 1.5rem;
+}
+
+.Mini-logo {
+    width: 30px;
+    height: 30px;
+
+}
+
+.Mini-logo1 {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.Mini-logo2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+
+}
+
+.Logo3 {
+    color: white;
+    font-size: 18px;
+}
+
+.Fotos {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding-right: 15px;
+}
+
+.Mini-logo3 {
+    width: 25px;
+    margin: 7px;
+}
+
+.Input1 input[type=text] {
+    background-color: rgb(105, 100, 100);
+    color: white;
+    border-style: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.Input1 input[type=text]:valid {
+    color: black;
+    padding-left: 7px;
+}
+
+.Input1 input[type=text]:invalid {
+    color: white;
+    padding-left: 7px;
+}
+
+.Display-input {
+    display: flex;
+}
+
+.Input2 input[type=tel] {
+    background-color: rgb(105, 100, 100);
+    color: white;
+    border-style: none;
+    height: 40px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.Input2 input[type=tel]:valid {
+    color: black;
+    padding-left: 7px;
+}
+
+.Input2 input[type=tel]:invalid {
+    color: white;
+    padding-left: 7px;
+}
+
+.Input3 input[type=email] {
+    background-color: rgb(105, 100, 100);
+    color: white;
+    border-style: none;
+    height: 40px;
+    display: flex;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.Input3 input[type=email]:valid {
+    color: black;
+    padding-left: 7px;
+}
+
+.Input3 input[type=email]:invalid {
+    color: white;
+    padding-left: 7px;
+}
+
+.Input3 label {
+    margin-left: 15px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+::placeholder {
+    color: black;
+    padding-left: 7px;
+}
+
+.Input4 input[type=text] {
+    background-color: rgb(105, 100, 100);
+    color: white;
+    border-style: none;
+    height: 100px;
+    border-radius: 5px;
+    padding-bottom: 70px;
+}
+
+.Input4 input[type=text]:valid {
+    color: black;
+    padding-left: 7px;
+}
+
+.Input4 input[type=text]:invalid {
+    color: white;
+    padding-left: 7px;
+}
+
+input[type=submit] {
+    background-color: white;
+    border-style: none;
+    width: 150px;
+    font-size: 11px;
+    height: 40px;
+}

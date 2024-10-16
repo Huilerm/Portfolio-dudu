@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Logo {
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.Letra {
+    color: rgb(75, 70, 70);
+}
+
+.Navegador {
+    width: 100%;
+    margin-right: 40px;
+}
+
+.Navegador ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Navegador ul li {
+    margin-left: 40px;
+}
+
+.Navegador ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.Navegador ul li a:hover {
+    border-bottom: 2px solid grey;
+}
+
+.Logo1 h1 {
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid grey;
+}
+
+.Fundo-logo {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+.sec2 {
+    background-color: black;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding-left: 9px;
+}
+
+.Flex-all {
+    display: flex;
+    flex-direction: column;
+}
+
+.Flex {
+    display: flex;
+    width: 50%;
+}
+
+.Fundo {
+    width: 100%;
+    height: 440px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(105, 100, 100);
+}
+
+.Fundo ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.Fundo ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: rgb(105, 100, 100);
+}
+
+.Fundo ul li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 150px;
+    padding-bottom: 234px;
+    padding-left: 203px;
+    padding-right: 203px;
+}
+
+.Fundo1 {
+    width: 46.7vh;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(105, 100, 100);
+}
+
+.Fundo1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.Fundo1 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Fundo1 ul li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 53px;
+    padding-bottom: 91px;
+    padding-left: 102px;
+    padding-right: 102px;
+}
+
+.Flex1 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin-top: 7px;
+}
+
+.Fundo2 {
+    width: 46.7vh;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(105, 100, 100);
+}
+
+.Fundo2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.Fundo2 ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Fundo2 ul li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 53px;
+    padding-bottom: 91px;
+    padding-left: 86px;
+    padding-right: 86px;
+}
+
+.Flex2 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.Fundo3 {
+    width: 46.7vh;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(105, 100, 100);
+}
+
+.Fundo3 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.Fundo3 ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Fundo3 ul li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 53px;
+    padding-bottom: 91px;
+    padding-left: 92.5px;
+    padding-right: 92.5px;
+}
+
+.Fundo4 {
+    width: 46.7vh;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(105, 100, 100);
+}
+
+.Fundo4 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.Fundo4 ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Fundo4 ul li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 54px;
+    padding-bottom: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+}

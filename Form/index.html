@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form>
+        <h1>Formulário de Exemplo</h1>
+        <div class="dentro">
+            <label for="Nome"><strong>Nome:</strong></label>
+            <br>
+            <input required id="Nome" placeholder="Digite seu nome" size="124" maxlength="" type="text">
+            <br><br>
+            <label for="E-mail"><strong>E-mail:</strong></label>
+            <br>
+            <input required id="E-mail" placeholder="Digite seu e-mail" size="124" maxlength="" type="email">
+            <br><br>
+            <label for="Senha"><strong>Senha:</strong></label>
+            <br>
+            <input required id="Senha" placeholder="Digite sua senha" size="124" maxlength="" minlength="8" type="password">
+            <br><br>
+            <label for="Idade"><strong>Idade:</strong></label>
+            <br>
+            <input required id="Idade" placeholder="Digite sua idade" size="124" maxlength="3" type="text">
+            <br><br>
+            <label for="Data de Nascimento"><strong>Data de Nascimento:</strong></label>
+            <br>
+            <input required id="Data de Nascimento" placeholder="Data de Nascimento" type="date">
+            <br><br>
+            <label for="Telefone"><strong>Telefone</strong></label>
+            <br>
+            <input required id="Telefone" placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{5}-\d{4}" size="124" type="tel">
+            <br>
+            <br>
+            <label><strong>Gênero:</strong></label>
+            <br>
+            <select required>
+                <option disabled selected>Selecione...</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <br>
+            <br>
+            <label><strong>Você gosta de programar?</strong></label>
+            <br>
+            <input class="cima" type="radio" required
+                name="Você gosta de programar?"><label><strong>Sim</strong></label>
+            <br>
+            <div class="meio">
+                <input class="baixo" type="radio" required
+                    name="Você gosta de programar?"><label><strong>Não</strong></label>
+                <br>
+                <label><strong>Gostaria de receber a newsletter?</strong></label>
+                <br>
+                <input type="checkbox"><label><strong>Sim</strong></label>
+                <br>
+                <label><strong>Faça o upload de um arquivo:</strong></label>
+                <br>
+                <input type="file" multiple>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+    </form>
+</body>
+
+</html>
